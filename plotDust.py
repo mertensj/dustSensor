@@ -90,15 +90,12 @@ def genereer_grafiek():
     )
 
 
-
-
-
     # 5. Grafiek opmaken en stylen
     # plt.title("Fijnstofmetingen (PM2.5 vs PM10)", fontsize=14, fontweight="bold")
     # plt.xlabel("Tijdstip", fontsize=11)
     # plt.ylabel("Concentratie (µg/m³)", fontsize=11)
 
-    ax.set_xlabel("Tijdstip", fontsize=14, color="white")
+    # ax.set_xlabel("Tijdstip", fontsize=14, color="white")
     ax.set_ylabel("Concentratie (µg/m³)", fontsize=14, color="white")
 
     # Instellingen voor de as-waarden (getallen zelf)
